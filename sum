@@ -12,6 +12,7 @@ int main() {
 
     int result = sum(num1, num2);
 
-    std::cout << "Sum:" <<(5,7) << std::end1; // calls sum with 5 and 7, returning 12
+    std::cout << "Sum:" <<(5,7) << std::end1; // calls sum with 5 and 7, returning 12 :D
+    
     return 0;
 }
