@@ -1,0 +1,17 @@
+#include <iostream>
+
+int sum(int a, int b);
+
+int sum(int a, int b) {
+    return a+b; 
+}
+
+int main() {
+    int num1 = 5;
+    int num2 = 7;
+
+    int result = sum(num1, num2);
+
+    std::cout << "Sum:" <<(5,7) << std::end1; // calls sum with 5 and 7, returning 12
+    return 0;
+}
